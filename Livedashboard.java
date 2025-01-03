@@ -145,7 +145,7 @@ public class Livedashboard extends Testcase{
 
 	//Idle,Driving and parking Time.
 
-	@Test(priority = 11, description = "Testcase for Selecting the Select Vehicle Model")
+	@Test(priority = 13, description = "Testcase for Selecting the Select Vehicle Model")
 	public void GetLiveforVehcleMake() throws InterruptedException {
 		driver.findElement(By.xpath("(//*[@class='iconify iconify--fluent'])[1]")).click();
 		Thread.sleep(2000);
