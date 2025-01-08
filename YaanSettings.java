@@ -222,7 +222,7 @@ public class YaanSettings {
 	driver.findElement(By.xpath("//span[normalize-space(text())='Movement']")).click();
 	Thread.sleep(2000);
 	}
-	@Test(priority = 18, description = "The Testcase for Movements Notification ")
+	@Test(priority = 18, description = "The Testcase for Others Notification ")
 	public void OtherNotification() throws InterruptedException {
 	driver.findElement(By.xpath("//span[normalize-space(text())='Others']")).click();
 	Thread.sleep(2000);
